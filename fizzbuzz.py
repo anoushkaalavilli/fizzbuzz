@@ -47,6 +47,9 @@ Buzz
 numberofnumbers= input("How many numbers shall we print? ")
 fizz= input("For multiples of what number shall we print 'Fizz'? ")
 buzz= input("For multiples of what number shall we print 'Buzz'? ")
+number= int(numberofnumbers)
+intfizz= int(fizz)
+intbuzz= int(buzz)
 
 for i in range(1,((numberofnumbers)+1)):
     if i%3==0 and i%5==0:
