@@ -52,11 +52,11 @@ intfizz= int(fizz)
 intbuzz= int(buzz)
 
 for i in range(1,((number)+1)):
-    if i%3==0 and i%5==0:
+    if i%(intfizz)==0 and i%(intbuzz)==0:
         print ("FizzBuzz")
-    elif i%3==0:
+    elif i%(intfizz)==0:
         print ("Fizz")
-    elif i%5==0:
+    elif i%(intbuzz)==0:
         print ("Buzz")
     else:
         print (i)
