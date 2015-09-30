@@ -51,9 +51,9 @@ number= int(numberofnumbers)
 intfizz= int(fizz)
 intbuzz= int(buzz)
 
-for i in range(1,((numberofnumbers)+1)):
+for i in range(1,((number)+1)):
     if i%3==0 and i%5==0:
-        print ("Fizz Buzz")
+        print ("FizzBuzz")
     elif i%3==0:
         print ("Fizz")
     elif i%5==0:
